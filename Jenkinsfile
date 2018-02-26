@@ -6,13 +6,13 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building..'
-        sh 'npm install'
+        //sh 'npm install'
       }
     }
     stage('Test') {
       steps {
         echo 'Testing..'
-        sh 'npm t'
+        //sh 'npm t'
       }
     }
   }
