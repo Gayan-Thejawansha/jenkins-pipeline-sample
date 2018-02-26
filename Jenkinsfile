@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    none
+    label 'Done'
   }
   stages {
     stage('Build') {
